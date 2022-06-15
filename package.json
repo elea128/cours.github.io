@@ -1,0 +1,29 @@
+{
+  "name": "cours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "toto": "npx prettier --write '*.html'",
+    "prettier": "npx prettier --write .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elea128/cours.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elea128/cours/issues"
+  },
+  "homepage": "https://github.com/elea128/cours#readme",
+  "devDependencies": {
+    "eslint": "~8.17.0",
+    "eslint-plugin-react": "~7.30.0",
+    "husky": "^8.0.0",
+    "prettier": "2.7.0"
+  }
+}
